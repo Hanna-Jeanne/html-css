@@ -1,0 +1,54 @@
+body{
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
+  margin: 20px;
+  border: 10px solid green;
+  padding: 50px;
+  color: darkblue;
+}
+
+p {
+  color: silver
+}
+
+/* 우선 순위를 정해준다 (likelion이 더 중요하다고 선언) */
+@layer techit, likelion;
+
+@layer likelion {
+  p {
+    color: red;
+  }
+}
+
+@layer techit {
+  p {
+    color: green !important;
+  }
+}
+
+@layer likelion {
+  h2 {
+    background-color: yellow;
+  }
+}
+
+@layer techit {
+  h2 {
+    background-color: tomato;
+  }
+}
+
+/* h1 {
+  color: green;
+}
+
+p {
+  color: orange;
+}
+
+#school.likelion {
+  color: grey;
+}
+
+#school {
+  color: red;
+} */
