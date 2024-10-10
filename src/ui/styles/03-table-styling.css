@@ -1,0 +1,20 @@
+@import "./../../common/best-reset.css";
+@import "./../../common/a11y.css";
+
+
+hgroup {
+  h1 {
+    color: #24388D;
+    color: #919BC6;
+    color: #878787;
+  }
+
+  p {}
+}  
+
+.ediya-news {
+  caption {}
+
+
+}
+
