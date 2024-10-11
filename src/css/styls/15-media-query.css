@@ -1,0 +1,42 @@
+@import "./../../common/mini-reset.css";
+@import "./../../common/base.css";
+
+body {
+  margin: 50px;
+}
+
+.border-box {
+  border: 1px solid currentColor;
+}
+
+
+.rwd-img {
+  width: 20%;
+}
+
+.float-wrapper {
+  background-color: skyblue;
+  display: flow-root;
+
+  div {
+    background-color: pink;
+    float: inline-start;
+    inline-size: 10%;
+    /* block-size: 50px; */
+    aspect-ratio: 1/1;
+  }
+}
+
+/* 미디어 쿼리 */
+body {
+  background-color: aliceblue;
+
+@media (min-width: 320px) {
+    background-color: lightseagreen;
+}
+
+@media (min-width: 480px) {
+    background-color: lightgreen;
+}
+}
+
