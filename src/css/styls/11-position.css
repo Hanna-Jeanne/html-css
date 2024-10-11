@@ -6,6 +6,25 @@ div:not(#awebChromeHelper){
   padding: 10px;
 }
 
+/* 요소 박스의 위치 지정 */
+body div.percentage-value {
+  border: 1px solid currentColor;
+  padding: 10px !important;
+  margin: 1em !important;
+  font-size: 1em !important;
+  width: 200px;
+  inline-size: 200px;
+
+  p{
+    padding: 10%;
+    margin: 0;
+    border: inherit;
+    position: relative;
+    inset-inline-start: 50%;
+    background-color: rebeccapurple;
+  }
+}
+
 .static{
   background: yellow;
 }
