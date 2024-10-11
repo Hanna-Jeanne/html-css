@@ -1,17 +1,21 @@
 @import "./../../common/best-reset.css";
 @import "./../../common/a11y.css";
+@import "./../../common/base.css";
+@import "./../../common/theme.css";
 
+.ediya-container {
+  margin: var(--spacing-md);
+}
 
-hgroup {
+/* 이디야 제목 그룹 */
+.hgroup {
   h1 {
-    color: #24388D;
-    color: #919BC6;
-    color: #878787;
   }
 
   p {}
 }  
 
+/* 이디야 뉴스 */
 .ediya-news {
   caption {}
 

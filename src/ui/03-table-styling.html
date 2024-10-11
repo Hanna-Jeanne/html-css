@@ -15,120 +15,132 @@
   <link rel="stylesheet" href="./styles/03-table-styling.css">
 </head>
 <body>
-  <hgroup>
-    <h1>언론 속 이디야</h1>
-    <p>이디야의 소식을 전해드립니다.</p>
-  </hgroup>
+  <div class="ediya-container">
+    <hgroup class="ediya-heading">
+      <h1>언론 속 이디야</h1>
+      <p>이디야의 소식을 전해드립니다.</p>
+    </hgroup>
+    <!-- ediya-heading -->
+  
+    <table class="ediya-news">
+      <caption class="sr-only">언론애 보도된 이디야 소식</caption>
+      <col class="ediya-news_order">
+      <col class="ediya-news_content">
+      <col class="ediya-news_date">
+  
+      <thead class="ediya-news_head">
+        <tr>
+          <th scope="col">순서</th>
+          <th scope="col">내용</th>
+          <th scope="col">날짜</th>
+        </tr>
+      </thead>
+      <!-- thead -->
+  
+      <tbody class="ediya-news_body">
+        <tr>
+          <th>999</th>
+  
+          <td>
+            <figure class="thumbnail-card">
+              <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
 
-  <table class="ediya-news">
-    <caption class="sr-only">언론애 보도된 이디야 소식</caption>
+              <figcaption class="thumbnail-card_caption">
+                <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
+                <p>
+                  이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
+                </p>
+              </figcaption>
+            </figure>
+            <!-- thumbnail-card -->
+          </td>
+  
+          <td><time datetime="2024-10-10">2024.10.10</time></td>
+        </tr>
+  
+        <tr>
+          <th>999</th>
+  
+          <td>
+            <figure class="thumbnail-card">
+              <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
 
-    <col class="ediya-news_order">
-    <col class="ediya-news_content">
-    <col class="ediya-news_date">
+              <figcaption class="thumbnail-card_caption">
+                <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
+                <p>
+                  이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
+                </p>
+              </figcaption>
+            </figure>
+            <!-- thumbnail-card -->
+          </td>
+  
+          <td><time datetime="2024-10-10">2024.10.10</time></td>
+        </tr>
+  
+        <tr>
+          <th>999</th>
+  
+          <td>
+            <figure class="thumbnail-card">
+              <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
 
-    <thead class="ediya-news_head">
-      <tr>
-        <th scope="col">순서</th>
-        <th scope="col">내용</th>
-        <th scope="col">날짜</th>
-      </tr>
-    </thead>
-    <!-- thead -->
+              <figcaption class="thumbnail-card_caption">
+                <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
+                <p>
+                  이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
+                </p>
+              </figcaption>
+            </figure>
+            <!-- thumbnail-card -->
+          </td>
+  
+          <td><time datetime="2024-10-10">2024.10.10</time></td>
+        </tr>
+  
+        <tr>
+          <th>999</th>
+  
+          <td>
+            <figure class="thumbnail-card">
+              <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
 
-    <tbody class="ediya-news_body">
-      <tr>
-        <th>999</th>
-
-        <td>
-          <figure class="thumbnail-card">
-            <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
-            <figcaption class="thumbnail-card_caption">
-              <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
-              <p>
-                이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
-              </p>
-            </figcaption>
-          </figure>
-        </td>
-
-        <td><time datetime="2024-10-10">2024.10.10</time></td>
-      </tr>
-
-      <tr>
-        <th>999</th>
-
-        <td>
-          <figure class="thumbnail-card">
-            <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
-            <figcaption class="thumbnail-card_caption">
-              <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
-              <p>
-                이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
-              </p>
-            </figcaption>
-          </figure>
-        </td>
-
-        <td><time datetime="2024-10-10">2024.10.10</time></td>
-      </tr>
-
-      <tr>
-        <th>999</th>
-
-        <td>
-          <figure class="thumbnail-card">
-            <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
-            <figcaption class="thumbnail-card_caption">
-              <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
-              <p>
-                이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
-              </p>
-            </figcaption>
-          </figure>
-        </td>
-
-        <td><time datetime="2024-10-10">2024.10.10</time></td>
-      </tr>
-
-      <tr>
-        <th>999</th>
-
-        <td>
-          <figure class="thumbnail-card">
-            <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
-            <figcaption class="thumbnail-card_caption">
-              <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
-              <p>
-                이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
-              </p>
-            </figcaption>
-          </figure>
-        </td>
-
-        <td><time datetime="2024-10-10">2024.10.10</time></td>
-      </tr>
-
-      <tr>
-        <th>999</th>
-
-        <td>
-          <figure class="thumbnail-card">
-            <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
-            <figcaption class="thumbnail-card_caption">
-              <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
-              <p>
-                이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
-              </p>
-            </figcaption>
-          </figure>
-        </td>
-
-        <td><time datetime="2024-10-10">2024.10.10</time></td>
-      </tr>
-    </tbody>
-    <!-- tbody -->
-  </table>
-
+              <figcaption class="thumbnail-card_caption">
+                <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
+                <p>
+                  이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
+                </p>
+              </figcaption>
+            </figure>
+            <!-- thumbnail-card -->
+          </td>
+  
+          <td><time datetime="2024-10-10">2024.10.10</time></td>
+        </tr>
+  
+        <tr>
+          <th>999</th>
+  
+          <td>
+            <figure class="thumbnail-card">
+              <img class="thumbnail-card_img" src="./../assets/food/cake.jpeg" alt="이디야 케이크 사진">
+              
+              <figcaption class="thumbnail-card_caption">
+                <strong>[MTN] 이디야커피, 조각 케이크 2종 출시…디저트 강화</strong>
+                <p>
+                  이디야커피가 조각 케이크 신제품 2종과 기존 조각 케이크 3종을 리뉴얼해 출시하며 디저트 케이크 라인업을 강화 ...
+                </p>
+              </figcaption>
+            </figure>
+            <!-- thumbnail-card -->
+          </td>
+  
+          <td><time datetime="2024-10-10">2024.10.10</time></td>
+        </tr>
+      </tbody>
+      <!-- tbody -->
+    </table>
+    <!-- ediya-news -->
+  </div>
 </body>
 </html>
