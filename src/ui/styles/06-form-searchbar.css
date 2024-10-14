@@ -7,7 +7,7 @@ body {
 
 /* 로고 컴포넌트 */
 .brand {
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: 0;
   font-size: 1em;
   font-weight: 400;
@@ -19,7 +19,11 @@ body {
 
 /* 검색버튼 컴포넌트 */
 .button--icon-circle {
-  all: unset;
+  /* all: unset; */
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  /* all 속성 대신에 스타일을 제거한다 */
 
   svg {
     display: block;
@@ -59,19 +63,37 @@ body {
   align-items: center;
   gap: 12px;
 
+  /* 부모요소가 그림자 생긴다 */
+  /* &:has(input:focus) {
+    box-shadow: 0px 4px 4px 0px rgba(68, 131, 63, 0.15);
+  } */
+   /* 내부에 포커스를 가지면 부몽 요소에 그림자가 생긴다 */
+  &:focus-within {
+    box-shadow: 0px 4px 4px 0px rgba(68, 131, 63, 0.5);
+  }
+
   .brand {
     flex: 0 0 auto;
   }
 
   .search-form {
-    display: flex;
+    /* display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    flex: 1;
     gap: 16px;
+    flex: 1; */
+    display: contents;
+    /* .search가 .search-bar의 직계자식으로 인식해서
+    플렉스의 요소로 플렉스가 가능하다 */
 
     .search {
       flex: 1;
+      /* border: 1px solid red;  */
+
+      input {
+        /* outline: none; */
+        /* a11y.css에 스타일을 넣었다 */
+      }
     }
 
     button {
