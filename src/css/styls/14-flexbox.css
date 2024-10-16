@@ -17,7 +17,7 @@ h2 {
   /* line-height: 100px; */
 }
 
-.flexbox-basic {
+.flex-basic {
   background-color: lavender;
   inline-size: 1000px;
   block-size: 600px;
@@ -27,7 +27,7 @@ h2 {
 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* flex-flow는 flex-direction 과 flex-wrap 을 한꺼번에 사용하는 속성 */
   /* flex-flow: row nowrap; */
   justify-content: center;
